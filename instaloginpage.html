@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+/* Body Styling */
+    body {
+        font-family:'Royal purple', sans-serif;
+        background: linear-gradient(135deg, #800080, #556270);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .login-container {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        width: 300px;
+        margin-bottom: -20px;
+    }
+</style>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Welcome Back</h2>
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="login-btn">Login</button>
+        </form>
+<!--
+<div class="welcome-container">
+        <h2>Welcome to Instagram</h2>
+        <p class="welcome-message">We're glad to have you here!</p>
+       
+	<form action="instaloginpage.html">
+ <button class="get-started-btn">Get Started</button>    
+</form>
+    </div>
+-->
+
+
+
+        <p class="register-link">Don't have an account? <a href="#">Register here</a></p>
+    </div>
+</body>
+</html>
